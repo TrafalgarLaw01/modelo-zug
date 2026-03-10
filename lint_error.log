@@ -1,0 +1,80 @@
+
+> modelo-zug@0.1.0 lint
+> eslint
+
+
+C:\Users\henri\Documents\Antigravity\modelo-zug\src\app\[locale]\layout.tsx
+  71:43  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\henri\Documents\Antigravity\modelo-zug\src\app\[locale]\services\page.tsx
+  40:60  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  43:59  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\henri\Documents\Antigravity\modelo-zug\src\components\ui\BentoGrid.tsx
+  13:48  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  13:71  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  15:40  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\henri\Documents\Antigravity\modelo-zug\src\components\ui\Footer.tsx
+  63:42  warning  'index' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\henri\Documents\Antigravity\modelo-zug\src\components\ui\Hero.tsx
+  128:25  error  Do not use an `<a>` element to navigate to `/portfolio/`. Use `<Link />` from `next/link` instead. See: https://nextjs.org/docs/messages/no-html-link-for-pages  @next/next/no-html-link-for-pages
+
+C:\Users\henri\Documents\Antigravity\modelo-zug\src\components\ui\Navbar.tsx
+  14:11  warning  'router' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\henri\Documents\Antigravity\modelo-zug\src\components\ui\Preloader.tsx
+  13:13  error  Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+C:\Users\henri\Documents\Antigravity\modelo-zug\src\components\ui\Preloader.tsx:13:13
+  11 |         const hasLoadedBefore = sessionStorage.getItem('awwwards_preloader_done');
+  12 |         if (hasLoadedBefore === 'true') {
+> 13 |             setIsVisible(false);
+     |             ^^^^^^^^^^^^ Avoid calling setState() directly within an effect
+  14 |             return;
+  15 |         }
+  16 |  react-hooks/set-state-in-effect
+
+C:\Users\henri\Documents\Antigravity\modelo-zug\src\components\ui\ServicesSection.tsx
+   97:60  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  113:60  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  116:59  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\henri\Documents\Antigravity\modelo-zug\src\components\ui\SplineScene.tsx
+   15:9   error  Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+C:\Users\henri\Documents\Antigravity\modelo-zug\src\components\ui\SplineScene.tsx:15:9
+  13 |
+  14 |     useEffect(() => {
+> 15 |         setMounted(true);
+     |         ^^^^^^^^^^ Avoid calling setState() directly within an effect
+  16 |
+  17 |         // Load the Spline Viewer script immediately
+  18 |         const script = document.createElement('script');  react-hooks/set-state-in-effect
+   28:53  error  Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        @typescript-eslint/no-explicit-any
+   29:40  error  Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        @typescript-eslint/no-explicit-any
+   60:38  error  Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        @typescript-eslint/no-explicit-any
+  104:26  error  Use "@ts-expect-error" instead of "@ts-ignore", as "@ts-ignore" will do nothing if the following line is error-free                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             @typescript-eslint/ban-ts-comment
+
+C:\Users\henri\Documents\Antigravity\modelo-zug\src\components\ui\TestimonialSection.tsx
+  47:37  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  47:97  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+
+C:\Users\henri\Documents\Antigravity\modelo-zug\src\i18n\request.ts
+  7:56  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+Ô£û 21 problems (19 errors, 2 warnings)
+

@@ -1,0 +1,48 @@
+# Plano de Implementação: Boutique Real Estate Master Template (Next.js)
+
+## 1. Visão Geral
+Criar um template Next.js de alto impacto visual (Estilo Eindhoven + Glassmorphism) focado no nicho de Boutique Real Estate Suíço, estruturado para personalização instantânea via arquivos de configuração.
+
+## 2. Arquitetura Técnica
+- **Framework:** Next.js 15 (App Router)
+- **Internationalization:** `next-intl` (Gerenciamento de idiomas Alemão, Francês, Inglês).
+- **Styling:** Tailwind CSS (Sistema de Tokens Dinâmicos).
+- **Animações:** GSAP + ScrollTrigger e Framer Motion.
+- **Performance:** `next/image` (Adaptive Sizing), Lazy Loading dinâmico por dispositivo.
+- **Hydration:** Centralizada no arquivo `src/config/client-data.ts`.
+
+## 3. Estrutura de Personalização (The "Hydrator")
+O `client-data.ts` conterá:
+- [ ] **Branding:** 
+    - Cores: Suporte a 5 HEX codes manuais ou fallback HSL.
+    - Logos (Light/Dark), Favicon.
+    - Fontes customizadas (Google Fonts ou arquivos locais).
+- [ ] **Copywriting (i18n):** Estrutura de chaves para tradução dinâmica.
+- [ ] **Social Proof:** Lista de depoimentos e logos de parceiros/premiações.
+- [ ] **Contact:** WhatsApp (com trigger customizado), Email, Google Maps Embed Link.
+- [ ] **Assets:** Mapeamento de caminhos para as imagens da persona e propriedades.
+
+## 4. Seções do Template (Baseadas no Benchmarking)
+- [ ] **Hero Imersiva:** Typography-focused (estilo Eindhoven) com background de vídeo/imagem paralaxe.
+- [ ] **Nicho & Exclusividade:** Seção curta sobre "Off-market" e Curadoria.
+- [ ] **Propriedades em Destaque:** Bento Grid moderno com efeitos de hover Premium.
+- [ ] **Seção de Persona:** Foco na autoridade do corretor (Boutique Real Estate é sobre pessoas).
+- [ ] **Call to Action (CTA) de Alto Impacto:** Floating Glass Card para contato rápido.
+
+## 5. Estratégia de SEO e Performance (Adaptive Loading)
+- [ ] **Multi-device Asset Strategy:**
+    - Mobile: Imagens WebP leves, vídeos em baixa resolução/bitrate.
+    - Desktop: Qualidade 4K/UHD, assets pesados carregados sob demanda.
+- [ ] **Meta Tags Dinâmicas:** SEO técnico avançado (JSON-LD, OpenGraph) por cliente.
+- [ ] **Skeleton States:** Placeholders premium com blur/shimmer durante o carregamento de imagens pesadas.
+
+## 6. Workflow de Clonagem (Para o Agente)
+1. Rodar script de clone para nova pasta do cliente.
+2. Solicitar inputs ao usuário (Formulário).
+3. Atualizar `client-data.ts`.
+4. Validar design e performance.
+
+## 7. Notas de Design (Eindhoven Style)
+- Tipografia gigante em negrito para seções principais.
+- Mudança dinâmica de cor de fundo durante o scroll (Themes).
+- Micro-interações em elementos clicáveis.

@@ -1,0 +1,78 @@
+{
+    "Index": {
+        "title": "Wo Diskretion auf Exzellenz trifft.",
+        "subtitle": "Ihr vertrauenswürdiger Partner für erstklassige Off-Market Immobilien in Zug und der Zentralschweiz.",
+        "cta": "Private Beratung vereinbaren",
+        "ctaSecondary": "Off-Market Portfolio ansehen"
+    },
+    "BentoGrid": {
+        "title": "Kuratierte Auswahl",
+        "description": "Exklusive Immobilien in Schweizer Bestlagen.",
+        "button": "Alle Immobilien ansehen",
+        "badge1": "Off-Market",
+        "badge2": "Verkauft",
+        "explore": "Exposé anfordern →",
+        "ctaTitle": "Auf der Suche nach mehr?",
+        "ctaDesc": "Treten Sie unserem privaten Zirkel bei.",
+        "ctaBtn": "Zirkel beitreten"
+    },
+    "MapSection": {
+        "badge": "Globales Netzwerk",
+        "title": "Eine Welt voller Möglichkeiten",
+        "subtitle": "Internationale Investoren mit den exklusivsten Immobilienjuwelen der Schweiz verbinden."
+    },
+    "Footer": {
+        "title": "Ihre exklusive Immobilie wartet.",
+        "description": "Treten Sie in Kontakt mit uns für eine diskrete Beratung und erhalten Sie Zugang zu unserem Off-Market Portfolio.",
+        "contact": "Kontaktieren Sie uns",
+        "location": "Standort",
+        "directions": "Anfahrt",
+        "navigation": "Navigation",
+        "socials": "Soziale Medien",
+        "privacy": "Datenschutzerklärung",
+        "impressum": "Impressum"
+    },
+    "Navbar": {
+        "portfolio": "Portfolio",
+        "services": "Dienstleistungen",
+        "about": "Über uns",
+        "journal": "Journal",
+        "contact": "Kontakt"
+    },
+    "About": {
+        "quote": "\"Wir verkaufen keine Immobilien, wir vermitteln Lebensqualität.\"",
+        "role": "Gründer & Geschäftsführer",
+        "badge": "Unsere Philosophie"
+    },
+    "Services": {
+        "badge": "Expertise",
+        "title": "Unsere Expertise",
+        "subtitle": "Maßgeschneiderte Lösungen für Klienten, die keine Kompromisse eingehen.",
+        "service1Title": "Diskrete Vermarktung",
+        "service1Desc": "Gezielte Vermarktung an ein exklusives Netzwerk.",
+        "service2Title": "Präzise Bewertung",
+        "service2Desc": "Wertermittlung durch lokale Marktexperten.",
+        "service3Title": "Off-Market Zugang",
+        "service3Desc": "Exklusiver Zugriff auf verborgene Objekte."
+    },
+    "Testimonials": {
+        "title": "Stimmen unserer Klienten",
+        "subtitle": "Erfahrungen, die für sich sprechen.",
+        "googleReviews": "Verifizierte Google-Bewertungen"
+    },
+    "Contact": {
+        "title": "Lassen Sie uns reden",
+        "description": "Interesse an Premium-Immobilien? Kontaktieren Sie uns diskret.",
+        "whatsapp": "Privater WhatsApp Chat",
+        "location": "Zug, Schweiz"
+    },
+    "Portfolio": {
+        "title": "Unser Portfolio",
+        "description": "Entdecken Sie unsere kuratierte Auswahl an exklusiven Off-Market-Immobilien in der ganzen Schweiz."
+    },
+    "Journal": {
+        "title": "Journal",
+        "description": "Einblicke, Markttrends und Lifestyle-Geschichten aus der Welt der Luxusimmobilien.",
+        "articleBadge": "Markt-Einblicke"
+    }
+}

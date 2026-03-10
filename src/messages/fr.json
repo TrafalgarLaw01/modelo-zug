@@ -1,0 +1,78 @@
+{
+    "Index": {
+        "title": "Là où la Discrétion rencontre l'Excellence.",
+        "subtitle": "Votre partenaire de confiance pour l'immobilier d'exception hors marché à Zoug et en Suisse centrale.",
+        "cta": "Planifier une consultation privée",
+        "ctaSecondary": "Voir le portfolio hors marché"
+    },
+    "BentoGrid": {
+        "title": "Sélection Exclusive",
+        "description": "Propriétés exclusives dans les meilleurs emplacements suisses.",
+        "button": "Voir toutes les propriétés",
+        "badge1": "Hors Marché",
+        "badge2": "Vendu",
+        "explore": "Demander le dossier →",
+        "ctaTitle": "Vous cherchez plus ?",
+        "ctaDesc": "Rejoignez notre cercle privé pour un accès exclusif.",
+        "ctaBtn": "Rejoindre le cercle"
+    },
+    "MapSection": {
+        "badge": "Réseau Mondial",
+        "title": "Un Monde de Possibilités",
+        "subtitle": "Connecter les investisseurs internationaux avec les joyaux immobiliers les plus exclusifs de Suisse."
+    },
+    "Footer": {
+        "title": "Votre propriété exclusive vous attend.",
+        "description": "Contactez-nous pour une consultation discrète et accédez à notre portefeuille hors marché.",
+        "contact": "Contactez-nous",
+        "location": "Emplacement",
+        "directions": "Obtenir l'itinéraire",
+        "navigation": "Navigation",
+        "socials": "Réseaux sociaux",
+        "privacy": "Politique de confidentialité",
+        "impressum": "Mentions légales"
+    },
+    "Navbar": {
+        "portfolio": "Portefeuille",
+        "services": "Prestations de service",
+        "about": "À propos",
+        "journal": "Journal",
+        "contact": "Contact"
+    },
+    "About": {
+        "quote": "\"Nous ne vendons pas des propriétés, nous transmettons une qualité de vie.\"",
+        "role": "Fondateur & Directeur Général",
+        "badge": "Notre Philosophie"
+    },
+    "Services": {
+        "badge": "Expertise",
+        "title": "Notre Expertise",
+        "subtitle": "Des solutions sur mesure pour les clients qui ne font aucun compromis.",
+        "service1Title": "Courtage Discret",
+        "service1Desc": "Marketing ciblé auprès d'un réseau exclusif.",
+        "service2Title": "Évaluation Technique",
+        "service2Desc": "Évaluation précise par des experts locaux.",
+        "service3Title": "Accès Hors Marché",
+        "service3Desc": "Accès exclusif aux propriétés cachées."
+    },
+    "Testimonials": {
+        "title": "Ce que Disent Nos Clients",
+        "subtitle": "Des expériences qui parlent d'elles-mêmes.",
+        "googleReviews": "Avis Google Vérifiés"
+    },
+    "Contact": {
+        "title": "Parlons-en",
+        "description": "Intéressé par l'immobilier de prestige ? Contactez-nous discrètement.",
+        "whatsapp": "Chat WhatsApp privé",
+        "location": "Zoug, Suisse"
+    },
+    "Portfolio": {
+        "title": "Notre Portefeuille",
+        "description": "Découvrez notre sélection organisée de propriétés exclusives hors marché à travers la Suisse."
+    },
+    "Journal": {
+        "title": "Journal",
+        "description": "Perspectives, tendances du marché et histoires de style de vie du monde de l'immobilier de luxe.",
+        "articleBadge": "Aperçu du Marché"
+    }
+}

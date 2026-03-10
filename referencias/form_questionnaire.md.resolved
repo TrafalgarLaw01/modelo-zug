@@ -1,0 +1,38 @@
+# Questionário de Clonagem: Boutique Master Template
+
+Instruções para o Usuário (Henri): Responda o formulário abaixo para cada novo lead. Eu usarei estas respostas para automatizar a criação do novo site.
+
+## 1. Identidade de Marca (Branding)
+- [ ] **Nome da Empresa:** (Ex: Zug Elite Properties)
+- [ ] **Slogan/Tagline:** (Ex: Seu refúgio em Zug)
+- [ ] **Esquema de Cores (Hex):**
+    - Cor Primária (Obrigatório): 
+    - Cor Secundária (Obrigatório):
+    - [Opcional] Cor 3:
+    - [Opcional] Cor 4:
+    - [Opcional] Cor 5:
+- [ ] **Fontes:** (Se houver preferência específica, coloque o nome do Google Fonts)
+
+## 2. Conteúdo e Copywriting
+- [ ] **Hero Section Headline:** (O título principal da página)
+- [ ] **Hero Section Sub-headline:** (Texto menor abaixo do título)
+- [ ] **Seção Sobre (Curto):** (O "quem somos")
+- [ ] **Seção Nicho/Exclusividade:** (O diferencial "Off-market")
+- [ ] **Números de Sucesso:** (Ex: 15 Anos de mercado, 500 Imóveis vendidos)
+
+## 3. Dados de Contato e Social Proof
+- [ ] **Instagram:** (Link completo)
+- [ ] **LinkedIn:** (Link completo)
+- [ ] **Número de Telefone:** (Ex: +41 ...)
+- [ ] **WhatsApp (Com mensagem personalizada):** (Ex: "Olá, gostaria de saber mais sobre o imóvel X")
+- [ ] **E-mail de Contato:**
+- [ ] **Localização:** (Link do Google Maps para embed)
+
+## 4. Assets e Arquivos
+- [ ] **Logo:** (Favor adicionar o arquivo `logo.png` na pasta `assets` do cliente)
+- [ ] **Imagem da Persona:** (Foto do corretor ou da equipe)
+- [ ] **Background Hero:** (Imagem ou Video de alta resolução)
+- [ ] **Propriedades (Thumbnail):** (Adicione as fotos dos principais imóveis na pasta `properties/`)
+
+---
+**Nota para o Agente:** Após receber estas respostas, execute o script de clonagem e sobrescreva o `client-data.ts`.

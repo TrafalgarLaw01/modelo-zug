@@ -1,0 +1,68 @@
+# Design System Specs: Boutique Master Template
+
+## 1. Sistema de Cores (Adaptive Color Suite)
+
+O sistema de cores será flexível para suportar tanto entrada manual rigorosa quanto geração inteligente.
+
+### Opção A: Manual (5 HEX Codes)
+Quando o usuário fornece 5 cores, o sistema as mapeia diretamente:
+- `primary`: Cor principal da marca.
+- `secondary`: Cor de destaque.
+- `surface`: Fundo de seções/cards (Light: `slate-50`, Dark: `slate-950`).
+- `accent`: Detalhes finos e bordas.
+- `glass`: Base para efeitos de transparência (Light: `white/80`, Dark: `black/20`).
+
+### Regras de Ouro (UI/UX Pro Max)
+- **Interação:** Todos os cards imobiliários e botões *devem* ter `cursor-pointer`.
+- **Transições:** Micro-interações padronizadas entre 150ms e 300ms (`transition-all duration-300 ease-in-out`).
+- **Glassmorphism Profissional:** 
+    - Light Mode: `bg-white/80 backdrop-blur-md border border-white/20`.
+    - Dark Mode: `bg-black/40 backdrop-blur-lg border border-white/10`.
+- **Tipografia:** Line-height entre 1.5 e 1.75 para máxima legibilidade (Boutique Style).
+
+### Opção B: Fallback Dinâmico (Primary & Secondary Only)
+Se apenas as cores principais forem dadas, o sistema usará utilitários (ex: `colord` ou `tinycolor2`) para gerar:
+- `primary-dark`: 15% mais escuro que a primária.
+- `primary-light`: 15% mais clara.
+- `glass-bg`: Primária com 10-15% de opacidade + Blur.
+
+## 2. Lógica de Assets e Hydration (`client-data.ts`)
+
+O arquivo de configuração será a única fonte da verdade.
+
+```typescript
+export const clientData = {
+  locale: ['de', 'en'], // Idiomas ativos
+  branding: {
+    name: "Luxury Estates Zug",
+    colors: {
+      useManual: true,
+      palette: ["#1a1a1a", "#d4af37", "#f5f5f5", "#000000", "rgba(255,255,255,0.1)"]
+    },
+    typography: {
+      heading: "Playfair Display",
+      body: "Inter"
+    }
+  },
+  content: {
+    hero: {
+      de: { title: "Exklusive Immobilien", subtitle: "Diskretion trifft auf Exzellenz" },
+      en: { title: "Exclusive Properties", subtitle: "Discretion meets Excellence" }
+    },
+    about: { /* Markdown support */ },
+    features: [ /* Array of Boutique features */ ]
+  },
+  contact: {
+    whatsapp: "+41790000000",
+    waMessage: "Grüezi, ich interessiere mich für...",
+    googleMaps: "https://goo.gl/maps/..."
+  }
+}
+```
+
+## 3. Adaptive Loading Strategy
+
+Para garantir o sentimento "Premium":
+- **Images:** Uso do componente `next/image` com `sizes` property.
+- **Videos:** Scripts de detecção de largura de banda que evitam autoplay de vídeo pesado em conexões lentas (fallback para imagem de alta qualidade com blur).
+- **i18n:** Middleware do Next.js para detecção automática de região/idioma do usuário suíço.

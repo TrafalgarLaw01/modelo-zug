@@ -1,0 +1,78 @@
+{
+  "Index": {
+    "title": "Where Discretion Meets Excellence.",
+    "subtitle": "Your trusted partner for premier off-market real estate in Zug and Central Switzerland.",
+    "cta": "Schedule Private Consultation",
+    "ctaSecondary": "View Off-Market Portfolio"
+  },
+  "BentoGrid": {
+    "title": "Curated Portfolio",
+    "description": "Exclusive properties in prime Swiss locations.",
+    "button": "View All",
+    "badge1": "Off-Market",
+    "badge2": "Sold",
+    "explore": "Details →",
+    "ctaTitle": "Seeking more?",
+    "ctaDesc": "Join our private circle for off-market access.",
+    "ctaBtn": "Join Circle"
+  },
+  "MapSection": {
+    "badge": "Global Network",
+    "title": "A World of Opportunities",
+    "subtitle": "Connecting international investors with Switzerland's most exclusive real estate gems."
+  },
+  "Footer": {
+    "title": "Your exclusive property awaits.",
+    "description": "Get in touch with us for a discreet consultation and gain access to our off-market portfolio.",
+    "contact": "Contact Us",
+    "location": "Location",
+    "directions": "Get Directions",
+    "navigation": "Navigation",
+    "socials": "Socials",
+    "privacy": "Privacy Policy",
+    "impressum": "Impressum"
+  },
+  "Navbar": {
+    "portfolio": "Portfolio",
+    "services": "Services",
+    "about": "About Us",
+    "journal": "Journal",
+    "contact": "Contact"
+  },
+  "About": {
+    "quote": "\"We do not sell properties, we convey quality of life.\"",
+    "role": "Founder & Managing Director",
+    "badge": "Our Philosophy"
+  },
+  "Services": {
+    "badge": "Expertise",
+    "title": "Our Expertise",
+    "subtitle": "Tailored solutions for clients who settle for nothing but the best.",
+    "service1Title": "Discreet Brokerage",
+    "service1Desc": "Targeted marketing to an exclusive network.",
+    "service2Title": "Technical Valuation",
+    "service2Desc": "Precise assessments by local market experts.",
+    "service3Title": "Off-Market Access",
+    "service3Desc": "Exclusive access to hidden properties."
+  },
+  "Testimonials": {
+    "title": "What Our Clients Say",
+    "subtitle": "Experiences that speak for themselves.",
+    "googleReviews": "Verified Google Reviews"
+  },
+  "Contact": {
+    "title": "Let's Talk",
+    "description": "Interested in premium real estate? Contact us discreetly.",
+    "whatsapp": "Private WhatsApp Chat",
+    "location": "Zug, Switzerland"
+  },
+  "Portfolio": {
+    "title": "Our Portfolio",
+    "description": "Explore our curated selection of exclusive off-market properties across Switzerland."
+  },
+  "Journal": {
+    "title": "Journal",
+    "description": "Insights, market trends, and lifestyle stories from the world of luxury real estate.",
+    "articleBadge": "Market Insights"
+  }
+}

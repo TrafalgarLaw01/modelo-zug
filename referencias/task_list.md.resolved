@@ -1,0 +1,34 @@
+# Task List: Boutique Master Template (Fase 2)
+
+## 0. Setup Inicial 🏗️
+- [ ] Iniciar infraestrutura Next.js 15 (App Router).
+- [ ] Configurar Tailwind CSS + Google Fonts.
+- [ ] Instalar e configurar `next-intl` (i18n).
+- [ ] Configurar TypeScript + Prettier/ESLint.
+
+## 1. Master Hydrator (Client Data Engine) ⚙️
+- [ ] Criar `/src/config/client-data.ts` (esquema completo).
+- [ ] Implementar utilitário de mapeamento de cores HSL dinâmico.
+- [ ] Configurar Context Provider para dados dinâmicos do cliente.
+
+## 2. Componentes de Interface (Eindhoven Style) 🎨
+- [ ] **Navbar:** Transparente -> Blur Glassmorphism no scroll.
+- [ ] **Hero Section:** Tipografia dinâmica (GSAP) + Background responsivo.
+- [ ] **Bento Grid:** Seção de portfólio de imóveis com animação de entrada.
+- [ ] **About/Persona:** Seção de autoridade (Markdown support).
+- [ ] **Contact Modal:** Floating Glass Card com integração de WhatsApp.
+
+## 3. Performance & SEO 🚀
+- [ ] Implementar `next/image` com lógica de adaptabilidade por dispositivo.
+- [ ] Configurar Meta Tags dinâmicas em `layout.tsx` (OpenGraph/Twitter).
+- [ ] Adicionar JSON-LD estruturado para Real Estate Agency.
+- [ ] Implementar Skeleton Loaders (Shimmer Effect) premium.
+
+## 4. i18n & Localization 🌍
+- [ ] Configurar dicionários de tradução (DE, FR, EN).
+- [ ] Implementar Middleware de detecção de idioma.
+- [ ] Componente `LanguageSwitcher` integrado ao design.
+
+## 5. Script de Clonagem (Agent Workflow) 🤖
+- [ ] Criar script `scripts/clone-client.ts` para automatizar a criação de novas pastas de clientes.
+- [ ] Documentar o fluxo de "Questionário para Clonagem".
