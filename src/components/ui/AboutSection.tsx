@@ -14,7 +14,7 @@ export function AboutSection({ description }: AboutSectionProps) {
 
     return (
         <section
-            className="w-full py-32 px-6 md:px-12 lg:px-24 bg-[var(--color-primary)] text-[var(--color-surface)] flex flex-col items-center justify-center text-center will-change-transform"
+            className="w-full py-32 px-6 md:px-12 lg:px-24 bg-[var(--color-primary)] text-[var(--color-surface)] flex flex-col items-center justify-center text-center isolation-isolate"
         >
             <div className="max-w-4xl mx-auto flex flex-col items-center">
 
