@@ -10,8 +10,7 @@ export function Footer() {
 
     return (
         <footer
-            className="relative isolate w-full overflow-hidden bg-[var(--color-primary)] text-[var(--color-surface)] pt-24 pb-12 px-6 md:px-12 lg:px-24 rounded-t-[2.5rem] mt-24"
-            style={{ transform: 'translate3d(0,0,0)', backfaceVisibility: 'hidden' }}
+            className="relative w-full bg-[var(--color-primary)] text-[var(--color-surface)] pt-24 pb-12 px-6 md:px-12 lg:px-24 rounded-t-[2.5rem] mt-24 will-change-transform"
         >
             <div className="max-w-7xl mx-auto flex flex-col gap-16 relative z-10">
 
@@ -61,7 +60,12 @@ export function Footer() {
                                 { label: tNav('about'), href: '/about' },
                                 { label: tNav('journal'), href: '/journal' }
                             ].map((item, index) => (
-                                <Link key={item.label} href={item.href} className="text-white/80 hover:text-white transition-colors capitalize">
+                                <Link
+                                    key={item.label}
+                                    href={item.href}
+                                    className="text-white/80 hover:text-white transition-colors capitalize will-change-[opacity]"
+                                    style={{ transform: 'translateZ(0)' }}
+                                >
                                     {item.label}
                                 </Link>
                             ))}
@@ -72,17 +76,38 @@ export function Footer() {
                         <h3 className="uppercase tracking-widest text-white/50 mb-2 font-semibold">{t('socials')}</h3>
                         <div className="flex gap-4">
                             {clientData.contact.instagram && (
-                                <a href={clientData.contact.instagram} target="_blank" rel="noopener noreferrer" className="p-3 border border-white/10 rounded-full hover:bg-white/10 transition-colors" aria-label="Instagram">
+                                <a
+                                    href={clientData.contact.instagram}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="p-3 border border-white/10 rounded-full hover:bg-white/10 transition-colors will-change-transform"
+                                    style={{ transform: 'translateZ(0)' }}
+                                    aria-label="Instagram"
+                                >
                                     <Instagram size={20} />
                                 </a>
                             )}
                             {clientData.contact.linkedin && (
-                                <a href={clientData.contact.linkedin} target="_blank" rel="noopener noreferrer" className="p-3 border border-white/10 rounded-full hover:bg-white/10 transition-colors" aria-label="LinkedIn">
+                                <a
+                                    href={clientData.contact.linkedin}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="p-3 border border-white/10 rounded-full hover:bg-white/10 transition-colors will-change-transform"
+                                    style={{ transform: 'translateZ(0)' }}
+                                    aria-label="LinkedIn"
+                                >
                                     <Linkedin size={20} />
                                 </a>
                             )}
                             {clientData.contact.facebook && (
-                                <a href={clientData.contact.facebook} target="_blank" rel="noopener noreferrer" className="p-3 border border-white/10 rounded-full hover:bg-white/10 transition-colors" aria-label="Facebook">
+                                <a
+                                    href={clientData.contact.facebook}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="p-3 border border-white/10 rounded-full hover:bg-white/10 transition-colors will-change-transform"
+                                    style={{ transform: 'translateZ(0)' }}
+                                    aria-label="Facebook"
+                                >
                                     <Facebook size={20} />
                                 </a>
                             )}

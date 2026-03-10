@@ -64,58 +64,60 @@
   .grain-overlay::before {
     content: "";
     position: fixed;
-    top: -150%;
-    left: -150%;
-    width: 300%;
-    height: 300%;
+    top: -20%;
+    left: -20%;
+    width: 140%;
+    height: 140%;
     background-image: url('https://grainy-gradients.vercel.app/noise.svg');
     opacity: 0.04;
     pointer-events: none;
     z-index: 9999;
-    animation: grain 8s steps(10) infinite;
+    will-change: transform;
+    animation: grain 12s steps(3) infinite;
+    transform: translateZ(0);
   }
 
   @keyframes grain {
 
     0%,
     100% {
-      transform: translate(0, 0);
+      transform: translate3d(0, 0, 0);
     }
 
     10% {
-      transform: translate(-5%, -10%);
+      transform: translate3d(-2%, -2%, 0);
     }
 
     20% {
-      transform: translate(-15%, 5%);
+      transform: translate3d(-3%, 1%, 0);
     }
 
     30% {
-      transform: translate(7%, -25%);
+      transform: translate3d(1%, -3%, 0);
     }
 
     40% {
-      transform: translate(-5%, 25%);
+      transform: translate3d(-2%, 3%, 0);
     }
 
     50% {
-      transform: translate(-15%, 10%);
+      transform: translate3d(-3%, 2%, 0);
     }
 
     60% {
-      transform: translate(15%, 0%);
+      transform: translate3d(3%, 0%, 0);
     }
 
     70% {
-      transform: translate(0%, 15%);
+      transform: translate3d(0%, 2%, 0);
     }
 
     80% {
-      transform: translate(3%, 35%);
+      transform: translate3d(1%, 4%, 0);
     }
 
     90% {
-      transform: translate(-10%, 10%);
+      transform: translate3d(-2%, 2%, 0);
     }
   }
 }
